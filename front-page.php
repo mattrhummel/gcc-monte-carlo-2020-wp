@@ -25,7 +25,7 @@ get_header();
             <div class="row">
               <div class="col-sm-12 mx-auto">
                 <!--   <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
-                <h1 class="display-4 text-uppercase">Germanna Scholarship Monte Carlo 2020</h1>
+                <h1 class="display-3 text-uppercase">Germanna Scholarship Monte Carlo 2020</h1>
                 <p class="py-3">April, 25, 2020 <br/> 6 p.m. to 11 p.m.</p>
                 <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Buy Tickets</a>
               </div>
@@ -42,7 +42,7 @@ get_header();
             
             <div class="row">
               <div class="col-sm-12 col-md-5 col-lg-4">
-                <h2 class="display-4 text-uppercase text-center text-md-left">About</h2>
+                <h2 class="display-3 text-uppercase text-center text-md-left">About</h2>
                 <p class="text-center text-md-left">April 26, 2020<br/>
                   Tickets: $90<br/>
                   6 p.m. to 11 p.m.<br/>
@@ -64,7 +64,7 @@ get_header();
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body">
-                        <h3 class="card-title">Keep students enrolled through Germanna Guarantee Program</h3>
+                        <h3  class="card-title display-4">Keep students enrolled through Germanna Guarantee Program</h3>
                         <p class="card-text">Do you know how many college students frequently have severe financial difficulty with college funding? Even students who receive Pell grants, scholarships and loans to help with the cost of education still have fees that they struggle to pay while studying. More often than not, the gap in fees that the student owes is $500 or less, but even this amount can result in being dropped from enrollment.</p>
                       </div>
                     </div>
@@ -127,7 +127,7 @@ get_header();
       <div class="container py-5" id="sponsorships">
         <div class="row">
           <div class="col-lg-12 col-xl-5">
-            <h2 class="display-4 text-uppercase">Sponsorships</h2>
+            <h2 class="display-3 text-uppercase">Sponsorships</h2>
           </div>
           <div class="col-lg-12 col-xl-7">
             
