@@ -8,7 +8,6 @@
  *
  * @package Monte_Carlo
  */
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -21,10 +20,9 @@
 
 <body <?php body_class(); ?>>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">   
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
           <img src="https://78bbm3rv7ks4b6i8j3cuklc1-wpengine.netdna-ssl.com/wp-content/uploads/germanna-logo-white.svg" alt="germanna white logo" height="60" width="200">
         </a>
         
@@ -45,8 +43,8 @@
             <li class="nav-item">
               <a class="nav-link text-center" href="#volunteer">Volunteer</a>
             </li> -->
-            <li class="nav-item">
-              <button type="button" class="btn btn-light mx-auto" data-toggle="modal" data-target=".bd-example-modal-lg">Become a Sponsor</button>
+            <li class="nav-item mx-auto">
+              <button type="button" class="btn btn-light mx-auto ml-md-3" data-toggle="modal" data-target=".bd-example-modal-lg">Become a Sponsor</button>
             </li>
           </ul>
         </div>

@@ -23,9 +23,9 @@ get_header();
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-white">
             <div class="row">
-              <div class="col-xl-10 mx-auto">
+              <div class="col-sm-12 mx-auto">
                 <!--   <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
-                <h1 class="display-3 text-uppercase">Germanna Scholarship Monte Carlo 2020</h1>
+                <h1 class="display-4 text-uppercase">Germanna Scholarship Monte Carlo 2020</h1>
                 <p class="py-3">April, 25, 2020 <br/> 6 p.m. to 11 p.m.</p>
                 <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Buy Tickets</a>
               </div>
@@ -42,7 +42,7 @@ get_header();
             
             <div class="row">
               <div class="col-sm-12 col-md-5 col-lg-4">
-                <h2 class="display-3 text-uppercase text-center text-md-left">About</h2>
+                <h2 class="display-4 text-uppercase text-center text-md-left">About</h2>
                 <p class="text-center text-md-left">April 26, 2020<br/>
                   Tickets: $90<br/>
                   6 p.m. to 11 p.m.<br/>
@@ -127,7 +127,7 @@ get_header();
       <div class="container py-5" id="sponsorships">
         <div class="row">
           <div class="col-lg-12 col-xl-5">
-            <h2 class="display-3 text-uppercase">Sponsorships</h2>
+            <h2 class="display-4 text-uppercase">Sponsorships</h2>
           </div>
           <div class="col-lg-12 col-xl-7">
             
@@ -152,7 +152,7 @@ get_header();
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-2">
+              <div class="col-md-4 mb-4">
                 <div class="card">
                   <div class="card-body">
                     <p class="h3 card-title text-uppercase">Gold</p>
@@ -265,23 +265,7 @@ get_header();
           </div>
         </div>
       </div> -->
-<!--       <div class="container py-5" id="volunteer">
-        <hr>
-        <div class="row py-5">
-          <div class="col-lg-5">
-            <h2 class="display-3  text-uppercase">Volunteer</h2>
-          </div>
-          
-          <div class="col-lg-7">
-            <p class="lead">Volunteer blackjack dealers needed for event.</p>
-            <p>Please consider volunteering to serve as a Blackjack Dealer at our upcoming 25th Annual Scholarship Monte Carlo fundraising gala.  The event will be held Saturday, April 27 from 6 p.m. until 11 p.m. at the Daniel Technology Center.</p>
-            <p>
-            Dealing is an excellent way to support student scholarships while having a great time. Volunteers receive a complimentary ticket where they enjoy appetizers, dinner, cocktails (21 & over) and the chance to win fabulous prizes. Non-exempt employees should check with their supervisor before committing to volunteer. Training is provided the day of the event beginning at 5:30 p.m.  </p>
-            <p>
-              Please email <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> or <a href="mailto:jthompson@germanna.edu">jthompson@germanna.edu</a> to volunteer. You can also call the Foundation at (540) 423-9060.  </p>
-            </div>
-          </div>
-        </div> -->
+
       </div>
 
 <?php
