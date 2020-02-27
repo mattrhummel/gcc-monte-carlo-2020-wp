@@ -252,7 +252,7 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="container" id="sponsors">
+<!--       <div class="container" id="sponsors">
         <hr>
         <div class="row py-5">
           
@@ -264,8 +264,8 @@ get_header();
             <p class="mb-0">Our thanks to longtime Germanna supporter Joe Daniel, who will be matching first-time donations to the Germanna Guarantee program up to $5,000 each. Even a small donation will have twice the impact in helping a Germanna student continue his or her education. Your support will mean that deserving Germanna students will not be turned away due to lack of funds.</p>
           </div>
         </div>
-      </div>
-      <div class="container py-5" id="volunteer">
+      </div> -->
+<!--       <div class="container py-5" id="volunteer">
         <hr>
         <div class="row py-5">
           <div class="col-lg-5">
@@ -281,7 +281,7 @@ get_header();
               Please email <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> or <a href="mailto:jthompson@germanna.edu">jthompson@germanna.edu</a> to volunteer. You can also call the Foundation at (540) 423-9060.  </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
 <?php
