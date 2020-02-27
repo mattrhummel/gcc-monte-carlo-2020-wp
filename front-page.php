@@ -52,7 +52,7 @@ get_header();
                 
               </div>
               <div class="col-sm-12 col-md-7 col-lg-8">
-                <h3 class="text-center text-md-left mb-4">What does my sponsorship of Scholarship Monte Carlo do?</h3>
+                <h3 class="text-center text-md-left mb-4 display-4">What does my sponsorship of Scholarship Monte Carlo do?</h3>
                 <div class="accordion" id="accordionExample">
                   <div class="card">
                     <div class="card-header" id="headingOne">
@@ -64,7 +64,7 @@ get_header();
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                       <div class="card-body">
-                        <h3  class="card-title display-4">Keep students enrolled through Germanna Guarantee Program</h3>
+                        <h3  class="card-title">Keep students enrolled through Germanna Guarantee Program</h3>
                         <p class="card-text">Do you know how many college students frequently have severe financial difficulty with college funding? Even students who receive Pell grants, scholarships and loans to help with the cost of education still have fees that they struggle to pay while studying. More often than not, the gap in fees that the student owes is $500 or less, but even this amount can result in being dropped from enrollment.</p>
                       </div>
                     </div>
