@@ -20,3 +20,5 @@ $(window).scroll(function () {
         $('#back-to-top').tooltip('show');
 
 });
+
+document.querySelector('video').playbackRate = 0.52;

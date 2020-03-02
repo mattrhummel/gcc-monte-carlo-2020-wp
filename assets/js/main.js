@@ -36,4 +36,6 @@ $(window).scroll(function () {
 
 });
 
+document.querySelector('video').playbackRate = 0.52;
+
 //# sourceMappingURL=main.js.map

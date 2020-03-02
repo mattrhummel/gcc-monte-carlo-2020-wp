@@ -8,7 +8,6 @@
  *
  * @package Monte_Carlo
  */
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -16,43 +15,40 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'monte-carlo' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$monte_carlo_description = get_bloginfo( 'description', 'display' );
-			if ( $monte_carlo_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $monte_carlo_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">   
+      <div class="container">
+        <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
+          <img src="https://78bbm3rv7ks4b6i8j3cuklc1-wpengine.netdna-ssl.com/wp-content/uploads/germanna-logo-white.svg" alt="germanna white logo" height="60" width="200">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'monte-carlo' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+        <div class="collapse navbar-collapse offcanvas-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#sponsorships">Sponsorships</a>
+            </li>
+   <!--          <li class="nav-item">
+              <a class="nav-link text-center" href="#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#volunteer">Volunteer</a>
+            </li> -->
+            <li class="nav-item mx-auto">
+              <button type="button" class="btn btn-light mx-auto ml-md-3" data-toggle="modal" data-target=".bd-example-modal-lg">Become a Sponsor</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-	<div id="content" class="site-content">
