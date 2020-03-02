@@ -36,7 +36,6 @@ get_header();
             ?>
                   <!-- <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img mb-4" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
 
-                <h1 class="display-3 text-uppercase"><?php the_field( 'hero_heading', 'options' ); ?></h1>
                 <p class="py-3"><?php the_field( 'hero_text', 'options' ); ?></p>
                 <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Buy Tickets</a>
               </div>

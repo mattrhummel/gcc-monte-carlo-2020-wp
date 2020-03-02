@@ -128,7 +128,7 @@ wp_deregister_script( 'jquery' );
 
 wp_deregister_script( 'jquery-migrate' );
 
-wp_enqueue_script( 'monte-carlo-scripts', get_template_directory_uri() . '/assets/js/main.min.js', array(), '2.1.4', true );
+wp_enqueue_script( 'monte-carlo-scripts', get_template_directory_uri() . '/dist/assets/js/main.min.js', array(), '2.1.4', true );
 
 	// wp_enqueue_script( 'monte-carlo-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
