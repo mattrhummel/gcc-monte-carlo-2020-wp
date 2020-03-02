@@ -18,7 +18,7 @@ get_header();
       <div class="overlay"></div>
 
       <video autoplay="autoplay" loop="true" muted="muted">
-        <source src="http://www.germanna.edu/wp-content/uploads/iStock-472650123.mp4">
+        <source src="<?php the_field( 'hero_video_url', 'options' ); ?>">
       </video>
      
       <div class="container h-100">
