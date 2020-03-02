@@ -16,17 +16,28 @@ get_header();
 ?>
     <header>
       <div class="overlay"></div>
-      <video autoplay="autoplay" muted="muted">
-        <source src="http://www.germanna.edu/wp-content/uploads/iStock-472650123.mp4">
+
+      <video autoplay="autoplay" loop="true" muted="muted">
+        <source src="<?php the_field( 'hero_video_url', 'options' ); ?>">
       </video>
+     
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-white">
             <div class="row">
-              <div class="col-sm-12 mx-auto">
-                <!--   <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
-                <h1 class="display-3 text-uppercase">Germanna Scholarship Monte Carlo 2020</h1>
-                <p class="py-3">April, 25, 2020 <br/> 6 p.m. to 11 p.m.</p>
+              <div class="col-sm-8 mx-auto">
+
+          <?php // ACF Image Object
+          $image     = get_field( 'hero_image', 'options' );
+          $alt       = $image['alt'];
+          $imageSize = $image['sizes'][ 'large' ];
+          
+          echo '<img src="' . $imageSize . '" alt="' . $alt . '" class="img mb-4"  />';
+            ?>
+                  <!-- <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img mb-4" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
+
+                <h1 class="display-3 text-uppercase"><?php the_field( 'hero_heading', 'options' ); ?></h1>
+                <p class="py-3"><?php the_field( 'hero_text', 'options' ); ?></p>
                 <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Buy Tickets</a>
               </div>
             </div>
