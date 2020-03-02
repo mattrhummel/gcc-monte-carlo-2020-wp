@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 
-$('video').playbackRate = 0.52;
+// $('video').playbackRate = 0.52;
 
 });
 
