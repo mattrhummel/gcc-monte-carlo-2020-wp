@@ -17,11 +17,33 @@ get_header();
     <header>
       <div class="overlay"></div>
 
-  <!--     <video autoplay="autoplay" loop="true" muted="muted">
-        // <source src="<?php // the_field( 'hero_video_url', 'options' ); ?>">
-      </video> -->
+      <video autoplay="autoplay" loop="true" muted="muted">
+        <source src="<?php the_field( 'hero_video_url', 'options' ); ?>">
+      </video>
      
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <div class="row">
+              <div class="col-sm-8 mx-auto">
 
+          <?php // ACF Image Object
+          $image     = get_field( 'hero_image', 'options' );
+          $alt       = $image['alt'];
+          $imageSize = $image['sizes'][ 'large' ];
+          
+          echo '<img src="' . $imageSize . '" alt="' . $alt . '" class="img mb-4"  />';
+            ?>
+                  <!-- <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img mb-4" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
+
+                <p class="py-3"><?php the_field( 'hero_text', 'options' ); ?></p>
+                <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Buy Tickets</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 	
     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
       <div class="container-fluid py-5 bg-light" id="about">
@@ -240,19 +262,56 @@ get_header();
           </div>
         </div>
       </div>
-<!--       <div class="container" id="sponsors">
+
+      <div class="container" id="prize-donations">
         <hr>
         <div class="row py-5">
           
           <div class="col-lg-5">
-            <h2 class="display-3 text-uppercase">Sponsors</h2>
+            <h2 class="display-3 text-uppercase">Prize Donations</h2>
           </div>
           
           <div class="col-lg-7">
-            <p class="mb-0">Our thanks to longtime Germanna supporter Joe Daniel, who will be matching first-time donations to the Germanna Guarantee program up to $5,000 each. Even a small donation will have twice the impact in helping a Germanna student continue his or her education. Your support will mean that deserving Germanna students will not be turned away due to lack of funds.</p>
+         
+ <p class="lead">Thank you for graciously donating a prize
+for Scholarship Monte Carlo!</p>
+<p>This is the signature fundraising event for the Germanna Community College
+Educational Foundation. Our scholarships help Germanna students fulfill their dreams
+of a college degree by reducing their financial burden. </p>
+<p>Each year, over 200 students benefit
+from the generous donations of individuals and companies like yours. Thank you!</p>
+<p>Please fill out the information below to ensure that proper credit is given for your donation.
+Write your name as you’d like it to appear in the program!</p>
+<p>If you have any questions, please do not hesitate to contact the
+GCC Educational Foundation at (540) 423-9060 or <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> </p>
+
+<?php echo do_shortcode( '[wpforms id="12"]' ); ?>
+
           </div>
         </div>
-      </div> -->
+      </div>
+
+      <div class="container py-5" id="volunteer">
+        <hr>
+        <div class="row py-5">
+          <div class="col-lg-5">
+            <h2 class="display-3 text-uppercase">Volunteer</h2>
+          </div>
+          
+          <div class="col-lg-7">
+            <p class="lead">Volunteer and blackjack dealers needed for event.</p>
+            
+            <p>Friday, April 24, 11 a.m. to 6 p.m.
+and Saturday, April 25, 6 p.m. to 11 p.m.
+for Scholarship Monte Carlo setup and dealing blackjack.</p>
+ <p>Dealers arrive at 5:30 p.m.</p>
+
+              Please email <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> or <a href="mailto:jthompson@germanna.edu">jthompson@germanna.edu</a> to volunteer. You can also call the Foundation at (540) 423-9060.  </p>
+
+
+            </div>
+          </div>
+        </div>
 
       </div>
 
