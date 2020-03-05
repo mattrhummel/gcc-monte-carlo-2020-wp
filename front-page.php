@@ -306,7 +306,7 @@ for Scholarship Monte Carlo setup and dealing blackjack.</p>
 
               Please email <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> or <a href="mailto:jthompson@germanna.edu">jthompson@germanna.edu</a> to volunteer. You can also call the Foundation at (540) 423-9060.  </p>
 
-              <?php echo do_shortcode( '[wpforms id="12" title="false" description="false"]' ); ?>
+              <?php echo do_shortcode( '[wpforms id="12"]' ); ?>
             </div>
           </div>
         </div>
