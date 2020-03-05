@@ -263,7 +263,7 @@ get_header();
         </div>
       </div>
 
-      <div class="container" id="sponsors">
+      <div class="container" id="prize-donations">
         <hr>
         <div class="row py-5">
           
@@ -284,6 +284,8 @@ from the generous donations of individuals and companies like yours. Thank you!<
 Write your name as you’d like it to appear in the program!</p>
 <p>If you have any questions, please do not hesitate to contact the
 GCC Educational Foundation at (540) 423-9060 or <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> </p>
+
+<?php echo do_shortcode( '[wpforms id="12"]' ); ?>
 
           </div>
         </div>
@@ -306,7 +308,7 @@ for Scholarship Monte Carlo setup and dealing blackjack.</p>
 
               Please email <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> or <a href="mailto:jthompson@germanna.edu">jthompson@germanna.edu</a> to volunteer. You can also call the Foundation at (540) 423-9060.  </p>
 
-              <?php echo do_shortcode( '[wpforms id="12"]' ); ?>
+
             </div>
           </div>
         </div>

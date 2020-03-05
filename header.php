@@ -38,12 +38,12 @@
             <li class="nav-item">
               <a class="nav-link text-center" href="#sponsorships">Sponsorships</a>
             </li>
-   <!--          <li class="nav-item">
-              <a class="nav-link text-center" href="#sponsors">Sponsors</a>
+            <li class="nav-item">
+              <a class="nav-link text-center" href="#prize-donations">Prize Donations</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-center" href="#volunteer">Volunteer</a>
-            </li> -->
+            </li>
             <li class="nav-item mx-auto">
               <button type="button" class="btn btn-light mx-auto ml-md-3" data-toggle="modal" data-target=".bd-example-modal-lg">Become a Sponsor</button>
             </li>
