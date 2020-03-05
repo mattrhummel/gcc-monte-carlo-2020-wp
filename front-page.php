@@ -282,7 +282,8 @@ of a college degree by reducing their financial burden. </p>
 from the generous donations of individuals and companies like yours. Thank you!</p>
 <p>Please fill out the information below to ensure that proper credit is given for your donation.
 Write your name as you’d like it to appear in the program!</p>
-
+<p>If you have any questions, please do not hesitate to contact the
+GCC Educational Foundation at (540) 423-9060 or <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> </p>
 
           </div>
         </div>
