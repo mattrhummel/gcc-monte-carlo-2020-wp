@@ -53,12 +53,12 @@ get_header();
             <div class="row">
               <div class="col-sm-12 col-md-5 col-lg-4">
                 <h2 class="display-3 text-uppercase text-center text-md-left">About</h2>
-                <p class="text-center text-md-left">April 25, 2020<br/>
+                <!-- <p class="text-center text-md-left">April 25, 2020<br/>
                   Tickets: $90<br/>
                   6 p.m. to 11 p.m.<br/>
                   Joseph R. Daniel Technology Center
                 </p>
-                <p class="text-center text-md-left"><a href="https://www.facebook.com/ScholarshipMonteCarlo/">Get Updates</a> | <a href="http://maps.google.com/maps?q=Germanna+Community+College,+Technology+Drive,+Culpeper,+VA&hl=en&sll=37.0625,-95.677068&sspn=42.716829,56.513672&oq=germanna+com&hq=Germanna+Community+College,+Technology+Drive,+Culpeper,+VA&t=m&z=14">Get Directions</a></p>
+                <p class="text-center text-md-left"><a href="https://www.facebook.com/ScholarshipMonteCarlo/">Get Updates</a> | <a href="http://maps.google.com/maps?q=Germanna+Community+College,+Technology+Drive,+Culpeper,+VA&hl=en&sll=37.0625,-95.677068&sspn=42.716829,56.513672&oq=germanna+com&hq=Germanna+Community+College,+Technology+Drive,+Culpeper,+VA&t=m&z=14">Get Directions</a></p> -->
                 
               </div>
               <div class="col-sm-12 col-md-7 col-lg-8">
