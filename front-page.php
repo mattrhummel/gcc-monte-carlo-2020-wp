@@ -263,7 +263,7 @@ get_header();
         </div>
       </div>
 
-      <div class="container" id="prize-donations">
+<!--       <div class="container" id="prize-donations">
         <hr>
         <div class="row py-5">
           
@@ -285,13 +285,13 @@ Write your name as you’d like it to appear in the program!</p>
 <p>If you have any questions, please do not hesitate to contact the
 GCC Educational Foundation at (540) 423-9060 or <a href="mailto:foundation@germanna.edu">foundation@germanna.edu</a> </p>
 
-<?php echo do_shortcode( '[wpforms id="12"]' ); ?>
+<?php // echo do_shortcode( '[wpforms id="12"]' ); ?>
 
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div class="container py-5" id="volunteer">
+<!--       <div class="container py-5" id="volunteer">
         <hr>
         <div class="row py-5">
           <div class="col-lg-5">
@@ -311,7 +311,7 @@ for Scholarship Monte Carlo setup and dealing blackjack.</p>
 
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
