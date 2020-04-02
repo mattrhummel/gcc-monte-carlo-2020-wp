@@ -37,7 +37,7 @@ get_header();
                   <!-- <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img mb-4" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
 
                 <p class="py-3"><?php the_field( 'hero_text', 'options' ); ?></p>
-                <a class="btn btn-light mx-3" href="https://www.germanna.edu/smc/wp-content/uploads/sites/17/foundation-letterhead-SMC-1.pdf" data-toggle="modal" data-target=".bd-example-modal-lg">Read more about the cancellation</a>
+                <a class="btn btn-light mx-3" href="https://www.germanna.edu/smc/wp-content/uploads/sites/17/foundation-letterhead-SMC-1.pdf">Read more about the cancellation</a>
               </div>
             </div>
           </div>
