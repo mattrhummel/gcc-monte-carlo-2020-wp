@@ -53,7 +53,7 @@ get_header();
             <div class="row">
               <div class="col-sm-12 col-md-5 col-lg-4">
                 <h2 class="display-3 text-uppercase text-center text-md-left">About</h2>
-                <p class="text-center text-md-left">April 26, 2020<br/>
+                <p class="text-center text-md-left">April 25, 2020<br/>
                   Tickets: $90<br/>
                   6 p.m. to 11 p.m.<br/>
                   Joseph R. Daniel Technology Center
